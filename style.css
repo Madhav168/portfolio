@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@500&family=IBM+Plex+Mono&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    background-color: rgb(0, 0, 0);
+    width: 15vw;
+    height: 100vh;
+    position: fixed;
+}
+.sidebar nav{
+    padding: 50px;
+}
+.sidebar nav li{
+    font-size: 20px;
+    padding: 25px 0;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.main{
+    background-color:rgb(84, 157, 240);
+    width: 85vw;
+    height: 100vh;
+    margin-left: 15vw;
+}
+.profile{
+    background-color:rgb(84, 157, 240);
+    width: 85vw;
+    height: 200vh;
+    margin-left: 15vw;
+}
+.contacts{
+    background-color:rgb(84, 157, 240);
+    width: 85vw;
+    height: 100vh;
+    margin-left: 15vw;
+}
+.website{
+    display: flex;
+}
+.infoContainer{
+    height: 70vh;
+    width: 80vw;
+    margin: 60px 5.5vw auto;
+    display: flex;
+}
+.contactinfoContainer{
+    height: 70vh;
+    width: 80vw;
+    margin: 30px auto auto;
+    display: flex;
+}
+.mainHead{
+    text-align: center;
+    font-size: 50px;
+    margin: 10px 150px auto 20px;
+    font-family: 'IBM Plex Mono', monospace;
+
+}
+.pic img{
+    height: 70vh;
+}
+.textInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.box{
+    height: 70vh;
+    width: 68vw;
+    background-color: white;
+    display: flex;
+    border-radius: 25px;
+    padding: 0px 30px 0px 30px;
+    box-shadow: 0px 10px 50px rgb(25, 25, 25);
+}
+.box2{
+    font-size: 30px;
+    height: 183vh;
+    width: 70vw;
+    background-color: white;
+    border-radius: 25px;
+    padding: 25px 30px 25px 30px;
+    box-shadow: 0px 10px 50px rgb(25, 25, 25);
+}
+.box4{
+    height: 40vh;
+    width: 35vw;
+    background-color: white;
+    display: flex;
+    border-radius: 25px;
+    padding: 30px;
+    box-shadow: 0px 10px 50px rgb(25, 25, 25);
+}
+
+.hello{
+    font-size: 40px;
+}
+.name{
+    font-size: 80px;
+}
+.about{
+    font-size: 15px;
+}
+.quote{
+    padding: 30px 0px 0px;
+    font-size: 20px;
+}
+.homeText{
+    height: 70vh;
+    width: 80vw;
+    margin: 140px auto;
+    justify-content: space-around;
+}
+.box4 button{
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    color: white;
+    background-color: black;
+}
+.box4 button:hover{
+    color: black;
+    background-color: white;
+}
+.mail a{
+    margin-right: 60px;
+    text-decoration: none;
+}
+.mail img{
+    height: 25px;
+    width: 25px;
+}
+.mail{
+    margin-top: 4vh;
+    margin-left: 68vw;
+    display: flex;
+    flex-direction: row;
+}
+.phone{
+    margin-left: 68vw;
+    display: flex;
+    flex-direction: row;
+}
+.phone a{
+    margin-right: 100px;
+    text-decoration: none;
+    margin-top: 4px;
+}
+.phone img{
+    margin-right: 1px;
+    height: 25px;
+    width: 25px;
+}
+.social{
+    margin-top: 7vh;
+    margin-left: 63vw;
+}
+.social img{
+    height: 25px; 
+    width: 25px;
+}
+.social simg{
+    display: flex;
+}
